@@ -1,0 +1,14 @@
+git log
+git remote add origin https://github.com/Valx01P/List.git
+//post the name of your remote repository on github
+//now we will push our local repository on our remote
+//repository on github
+git push -u origin master
+//master branch is the default branch of all of your commits
+//after doing this all of your files will now be hosted on github
+//in your master branch you can see all your commits on github
+
+//change the remote orgin-
+git remote set-url origin https://github.com/Valx01P/List.git
+//verify the remote origin-
+git remote -v

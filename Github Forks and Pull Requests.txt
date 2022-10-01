@@ -1,0 +1,17 @@
+If you fork someone else's github repository you 
+can now freely modify the code copy which can then
+be cloned in a local repository to be changed
+and remerged, and eventually you can make a pull 
+request to suggest to the owner to change the 
+original version with the forked changes you made
+in a pull request as you do not have permissions
+to change the original, but you may suggest to the
+owner(s) any ideas that they can review and possibly
+implement to the original. If the pull request is
+approved by the owner they merge the two together
+and commit the new changes.
+
+Use github to fork someone else's code to make changes
+that you find beneficial and send these changes as a
+pull request to see if the creator agrees then if they
+find your changes good, your changes will be merged.

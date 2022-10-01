@@ -1,0 +1,19 @@
+git log  //see the git changes and files
+git branch alien-plot //make git branch
+git branch  //see which branch your at
+git checkout alien-plot //switch to branch
+git add .  //add to the local repository
+commit -m "modify chapter 1 & 2 to have alien theme"
+git log
+git branch //your are on the asterisk *
+git checkout master  //switch to master branch
+touch chapter4.txt
+git add .  
+git commit -m "add chapter 4"
+git log
+git checkout alien-plot
+git checkout master
+git merge alien-plot  //merges the two branches
+:q! //in vim use this to save and quit
+git push origin master -u
+these finalize your changes

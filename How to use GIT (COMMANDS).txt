@@ -1,0 +1,38 @@
+mkdir story
+cd story
+ls
+touch chapter1.txt
+open chapter1.txt
+open chapter1.txt
+git init				//starts a git repository
+ls -a					//shows hidden files
+git status				//shows git status
+git add chapter1.txt		//add to the repository
+git status				//shows the git status
+git commit -m "bruh"		//adds commit with a message
+git log				//see the commit changes
+touch chapter2.txt
+touch chapter3.txt
+git status
+git add chapter2.txt		//this adds individual files
+git add .			//this adds every file in the dir
+git status
+git commmit -m "brah"
+git log
+
+So basically, we made a working directory to initizlize
+our git repository using git init, then we had git track 
+our changes between our working directory and local 
+repository we then pushed our files into the staging 
+area using git add, then we commited these changes using
+the git commit command, so if we messed up our file we
+can use our last version as a back-up save using
+git checkout  to go to the last saved file in our
+local repository
+
+git diff		// to see differences between versions
+git checkout chapter3.txt	//rollback to last version
+git log
+
+On github start a new repository, name it and begin the
+steps "How to use GIT (GITHUB PUSH)

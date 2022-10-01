@@ -1,0 +1,21 @@
+cd Desktop/
+mkdir Project
+cd Project/
+touch file1.txt
+touch file2.txt
+touch file3.txt
+touch secrets.txt
+ls -a
+touch .gitignore
+open .gitignore	//write what files you want to ignore
+git init
+
+//
+git add . 	//adds all files to in dir to git staging area
+git status
+git rm --cached -r .	//removes files in git staging area
+//
+
+git add .
+git status
+git commit -m "initial commit"
